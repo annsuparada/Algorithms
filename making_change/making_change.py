@@ -3,7 +3,12 @@
 import sys
 
 def making_change(amount, denominations):
-  pass 
+  if amount < 0:
+    return 0
+  if amount == 0:
+    return 1
+  
+
 
 
 if __name__ == "__main__":

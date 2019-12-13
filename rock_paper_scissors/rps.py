@@ -5,7 +5,7 @@ import sys
 def rock_paper_scissors(n):
   choises = ['rock', 'paper', 'scissors'] 
   results = []
-  
+
   def add_n(n, result=[]):
     if n == 0:
       return results.append(result)
